@@ -1,0 +1,48 @@
+<Html>  
+<head>   
+<title>  
+Music School Registration  
+</title>  
+<style> 
+.required1:after {
+    content:" *";
+    color: red;
+	}
+body {
+  background-image: url("abc.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover
+}
+</style>
+</head>  
+<body>  
+<br>  
+<br>  
+<form>  
+<CENTER><TABLE BORDER="10" WIDTH="50%" cellpadding = "5" cellspacing = "5">
+<TR><TH COLSPAN="3" ><H2 style="color:red;">Music School Registration</H2></TH></TR>
+<TR><TH class="required1">Name:</TH><TD><input type="text" name="firstname " required ></TD>
+<TR><TD class="required1">BirthDate:</TH><TD><input type="date" id="bdaymonth" name="bdaymonth"></TD>
+<TR><TD class="required1">Pickup Dates:</TH><TD>
+  <input type="checkbox" id="Day1" name="Monday" value="Bike">
+  <label for="Day1"> Monday</label><br>
+  <input type="checkbox" id="Day2" name="Tuesday" value="Bike">
+  <label for="Day2"> Tuesday</label><br>
+  <input type="checkbox" id="Day3" name="Wednesday" value="Bike">
+  <label for="Day3">Wednesday</label><br>
+  <input type="checkbox" id="Day4" name="Thursday" value="Bike">
+  <label for="Day4"> Thursday</label><br>
+  <input type="checkbox" id="Day5" name="Friday" value="Bike">
+  <label for="Day5"> Friday</label><br>
+  <input type="checkbox" id="Day6" name="Saturday" value="Bike">
+  <label for="Day6"> Saturday</label><br><br></TR></TD>
+<TR><TD class="required1">Start Day & End Day:</TH><TD><input type="date" id="bdaymonth" name="bdaymonth"><p>At</p><input type="date" id="bdaymonth" name="bdaymonth"></TD>
+<TR><TD >Comments :</TH><TD><textarea cols="50" rows="5" value="address"></textarea>  
+
+<TR><TH COLSPAN="3" ><CENTER><input type="button" value="Submit"/><input type="RESET" value="RESET"/></CENTER></TH></TR>
+<BR><BR><BR><BR>
+</TABLE></CENTER>
+</form> 
+ 
+</body>  
+</html>  
